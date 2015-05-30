@@ -3,7 +3,7 @@
 angular.module('goRover')
   .directive('rover', function() {
     return {
-      template: '<div>rover!</div>',
+      templateUrl: 'app/components/rover/rover.template.html',
       restrict: 'E',
       link: function postLink(scope, element) {
 
