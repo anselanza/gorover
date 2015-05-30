@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('robot', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'mm.foundation'])
+angular.module('goRover', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'mm.foundation'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {

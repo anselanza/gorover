@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('robot')
+angular.module('goRover')
   .controller('NavbarCtrl', function ($scope) {
     $scope.date = new Date();
   });

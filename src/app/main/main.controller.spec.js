@@ -3,7 +3,7 @@
 describe('controllers', function(){
   var scope;
 
-  beforeEach(module('robot'));
+  beforeEach(module('goRover'));
 
   beforeEach(inject(function($rootScope) {
     scope = $rootScope.$new();

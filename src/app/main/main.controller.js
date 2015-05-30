@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('robot')
+angular.module('goRover')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       {
